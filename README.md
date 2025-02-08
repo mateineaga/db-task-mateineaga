@@ -15,6 +15,6 @@ Codul trateaza si cazurile in care organizatiile, developerii sau taskul nu pot 
 
 ------------------ BONUS: DOCKER ---------------------
 
-Scriptul a fost impachetat intr-o imagine de docker, care poate fi accesata prin comanda 'docker pull mateineaga10/db-apigee:latest'. In fisierul 'Dockerfile' se poate gasi structura cu care am realizat lansarea scriptului in containerul de Docker.
+Scriptul a fost impachetat intr-o imagine de docker, prin comanda 'docker build -t db-apigee -f Dockerfile .' In fisierul 'Dockerfile' se poate gasi structura cu care am realizat lansarea scriptului in containerul de Docker. Aceasta poate fi accesata prin comanda 'docker pull mateineaga10/db-apigee:latest'. 
 
 Pentru a testa functionalitatea imaginii, am adaugat un file 'docker-compose.yaml'. Prin comanda 'docker compose up', va fi lansat un container Docker care contine script-ul, dar fara fisierul ".env". File-ul specific variabilelor si docker compose trebuie sa fie in acelasi director, pentru a functiona comanda 'docker compose up'.
