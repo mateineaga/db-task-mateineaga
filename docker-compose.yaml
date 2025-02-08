@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  db-apigee:
+    image: mateineaga10/db-apigee
+    env_file:
+      - .env
