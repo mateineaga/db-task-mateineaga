@@ -21,4 +21,4 @@ Scriptul a fost impachetat intr-o imagine de docker, prin comanda 'docker build 
 
 Pentru a testa functionalitatea imaginii, am adaugat un file 'docker-compose.yaml'. Prin comanda 'docker compose up', va fi lansat un container Docker care contine script-ul, dar fara fisierul ".env". File-ul specific variabilelor si docker compose trebuie sa fie in acelasi director, pentru a functiona comanda 'docker compose up', deoarece primeste mount prin configuratiile fisierului "docker compose".
 
-![Rezultate](rezultate/task.png)
+![Rezultate](rezultate/45cf9080c9b85114c90f2856853bc480.png)
